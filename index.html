@@ -1,0 +1,20 @@
+<html>
+<head>
+
+<body onload="init();">
+  <h1>Photopick App</h1>
+<div>
+<video onclick="changeFilter(this);" width=400 height=400 id="video" controls autoplay></video>
+<center><button onclick="startWebcam();">Start WebCam</button>
+<button onclick="stopWebcam();">Stop WebCam</button>
+<button onclick="snapshot();">Save and download a Selfy</button> 
+  </center></div> 
+
+ <center><canvas id="myCanvas" width="820" height="250">
+<canvas id="myHiddenCanvas" class="hiddenCanvas" width="400" height="320">
+   </canvas></center> 
+
+
+</body>
+</head>
+</html>
